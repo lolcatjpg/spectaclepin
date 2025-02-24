@@ -7,6 +7,10 @@ takes a screenshot with Spectacle and opens it in feh to essensialy pin it to th
 - [Spectacle](https://apps.kde.org/spectacle/)
 - [feh](https://github.com/derf/feh)
 
-## pro tip
+## kwin rule
 
-if you use KDE Plasma: add a [special application rule](https://userbase.kde.org/KWin_Rules) which matches the window class and title to keep the window on top of other windows
+**if you use KDE Plasma:** 
+
+you can make spectaclepin feh windows stay on top automatically by importing 
+`spectaclepin_keep_on_top.kwinrule` in Settings > Window Management > Window Rules > Import...
+
