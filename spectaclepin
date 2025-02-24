@@ -4,7 +4,7 @@ OUT=$(mktemp)
 spectacle -brno "$OUT"
 
 if [[ -s $OUT ]]; then
-    qview --qwindowtitle 'pinned image' "$OUT"
+    /usr/bin/env feh --auto-zoom --title 'spectaclepin pinned image' "$OUT"
 fi
 rm "$OUT"
 
