@@ -16,5 +16,4 @@ you can make spectaclepin feh windows stay on top automatically by importing
 
 ## demo
 
-![demo](.assets/demo.mp4)
-
+https://github.com/user-attachments/assets/63459900-cf33-4121-b5d9-447b3f8531e3
