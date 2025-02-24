@@ -3,4 +3,5 @@ takes a screenshot with Spectacle and opens it in feh to essensialy pin it to th
 
 ## dependencies
 - [Spectacle](https://apps.kde.org/spectacle/)
-- [feh](https://github.com/derf/feh)
+- [qview](https://interversehq.com/qview/)
+

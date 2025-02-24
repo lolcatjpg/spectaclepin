@@ -2,6 +2,9 @@
 
 OUT=$(mktemp)
 spectacle -brno "$OUT"
-feh --auto-zoom "$OUT"
+
+if [[ -s $OUT ]]; then
+    qview --qwindowtitle 'pinned image' "$OUT"
+fi
 rm "$OUT"
 
