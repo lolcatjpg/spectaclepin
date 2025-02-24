@@ -1,0 +1,9 @@
+[spectaclepin keep on top]
+Description=spectaclepin keep on top
+above=true
+aboverule=3
+clientmachine=localhost
+title=spectaclepin pinned image
+titlematch=1
+wmclass=feh
+wmclassmatch=1
